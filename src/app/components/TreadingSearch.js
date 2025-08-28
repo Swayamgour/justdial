@@ -14,7 +14,7 @@ const TreadingSearch = () => {
             <div className=" mx-auto p-4 sm:p-6 bg-white rounded-xl border border-gray-300">
                 {/* Header Section */}
                 <div className="mb-8">
-                    <h1 className="text-2xl font-bold text-gray-800">Trending Searches Near You</h1>
+                    <h1 className="sm:text-sm lg:text-2xl font-bold text-gray-800">Trending Searches Near You</h1>
                     <p className="text-gray-600 mt-2">Stay updated with the latest local trends.</p>
                     {/* <div className="w-full h-px bg-gray-200 my-6"></div> */}
                 </div>

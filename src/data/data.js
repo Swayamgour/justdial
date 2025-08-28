@@ -667,3 +667,85 @@ export const movieBooking = [
 ]
 
 
+
+export const latestMovies = [
+    {
+        id: 1,
+        title: 'War 2 (Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        rating: '34%',
+        image: '/movie/centralized_161375742025_06_26_04_03_00_220.webp',
+    },
+    {
+        id: 2,
+        title: 'Coolie The Powerhouse (Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        rating: '80%',
+        image: '/movie/centralized_161571212025_02_05_01_34_14_220.avif',
+    },
+    {
+        id: 3,
+        title: 'Mahavatar Narsimha (Animated Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        rating: '86%',
+        image: '/movie/centralized_162039232025_06_20_02_34_02_220.avif',
+    },
+    {
+        id: 4,
+        title: 'Saiyaara (Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        rating: '76%',
+        image: '/movie/centralized_162110222025_07_07_05_27_08_220.avif',
+    },
+    {
+        id: 5,
+        title: 'Saamraajya (Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        image: '/movie/centralized_161375742025_06_26_04_03_00_220.webp',
+    },
+    {
+        id: 6,
+        title: 'War 2 (Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        rating: '34%',
+        image: '/movie/centralized_161375742025_06_26_04_03_00_220.webp',
+    },
+    {
+        id: 7,
+        title: 'Coolie The Powerhouse (Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        rating: '80%',
+        image: '/movie/centralized_161571212025_02_05_01_34_14_220.avif',
+    },
+    {
+        id: 8,
+        title: 'Mahavatar Narsimha (Animated Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        rating: '86%',
+        image: '/movie/centralized_162039232025_06_20_02_34_02_220.avif',
+    },
+    {
+        id: 9,
+        title: 'Saiyaara (Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        rating: '76%',
+        image: '/movie/centralized_162110222025_07_07_05_27_08_220.avif',
+    },
+    {
+        id: 10,
+        title: 'Saamraajya (Hindi Movie)',
+        language: 'Hindi',
+        format: '2D',
+        image: '/movie/centralized_161375742025_06_26_04_03_00_220.webp',
+    },
+];
+
