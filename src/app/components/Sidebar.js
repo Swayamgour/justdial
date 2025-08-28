@@ -37,8 +37,8 @@ export default function Sidebar() {
             onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}
         >
-            <div className="flex items-center justify-between p-4 border-b">
-                <h2 className="text-lg font-semibold">Profile</h2>
+            <div className="flex items-center justify-start pt-4 pl-4 ">
+              
                 <button  className="text-gray-600 text-xl">
                     ✕
                 </button>
@@ -51,7 +51,7 @@ export default function Sidebar() {
                 </div>
                 <div>
                     <h3 className="font-semibold text-gray-800">Aman</h3>
-                    <button className="text-blue-600 text-sm">Click to view profile</button>
+                    <button className=" font-sans text-sm">Click to view profile</button>
                 </div>
             </div>
 

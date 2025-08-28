@@ -58,7 +58,7 @@ function Category({ title, items }) {
             {/* Items Grid */}
             <div className="grid grid-cols-3 gap-4">
                 {items?.map((item, index) => (
-                    <div key={index} className="flex flex-col items-center" onClick={() => router.push('/RefrigeratorRepairServices')}>
+                    <div key={index} className="flex flex-col items-center" onClick={() => router.push('/MovieLisiting')}>
                         {/* Image Thumbnail */}
                         <div className="relative w-full h-24 sm:h-32 md:h-40 rounded-lg overflow-hidden mb-2">
                             <Image

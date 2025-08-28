@@ -111,7 +111,7 @@ export default function Navbar() {
                             <div className="relative">
                                 <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white cursor-pointer hover:bg-blue-600 transition-colors">
                                     {/* <User className="w-4 h-4 " /> */}
-                                     <Sidebar />
+                                    <Sidebar />
                                 </div>
                                 <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
                                     1
@@ -121,7 +121,7 @@ export default function Navbar() {
                     </div>
 
                     <TextSlider />
-                   
+
 
                     {/* Search inputs when not scrolled */}
                     {!scrolled && (
