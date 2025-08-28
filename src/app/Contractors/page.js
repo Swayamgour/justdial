@@ -112,7 +112,7 @@ export default function ContractorCategories() {
                 <div className="mb-6 flex justify-between items-center">
                     <p className="text-gray-700">
                         Showing {filteredCategories.length} of {categories.length} categories
-                        {searchQuery && <span> for "<strong>{searchQuery}</strong>"</span>}
+                        {searchQuery && <span> for <strong>{searchQuery}</strong></span>}
                     </p>
                     <button
                         onClick={clearSearch}
@@ -145,7 +145,7 @@ export default function ContractorCategories() {
                     </div>
                     <h3 className="text-lg font-medium text-gray-800 mb-2">No categories found</h3>
                     <p className="text-gray-600 max-w-md mx-auto">
-                        We couldn't find any hospital categories matching "{searchQuery}". Try different keywords.
+                        We couldnt find any hospital categories matching {searchQuery}. Try different keywords.
                     </p>
                 </div>
             )}
